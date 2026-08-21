@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Connector</title>
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="stylesheet" href="style.css" />
+  <meta name="theme-color" content="#0d1117" />
+</head>
+<body>
+  <header>
+    <h1>Connector</h1>
+    <span id="status" class="status disconnected">disconnected</span>
+  </header>
+
+  <main>
+    <pre id="output"></pre>
+    <form id="command-form">
+      <input id="command-input" type="text" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="Enter command..." />
+      <button type="submit">Run</button>
+    </form>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
